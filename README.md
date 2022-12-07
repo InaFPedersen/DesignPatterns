@@ -16,3 +16,7 @@ https://app.pluralsight.com/library/courses/c-sharp-10-design-patterns/table-of-
 
 ## Author
 Written by Ina F. Pedersen
+
+* test
+* bullet 
+* points
