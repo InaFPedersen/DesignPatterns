@@ -22,11 +22,9 @@ We could have done this in Java, but not in C#. However, we can implement it wit
 ## Pattern Structure 
 
 Client   ----------->  Target
-			     |
-          Adapter -----------------> Adaptee
-	  
-	  
-	  ![image](https://user-images.githubusercontent.com/42718910/206155633-dced07e9-050b-420a-9063-01095fbff6a9.png)
+			 |
+                       Adapter -----------------> Adaptee </br>![image](https://user-images.githubusercontent.com/42718910/206155847-e0c4b916-a9fc-45f8-a2f2-3c7ce1c77504.png)
+
 
 ## Use case
 This pattern is useful when you want to use an existing class, but the interface does not match the one you need, adapting a city class from one system to another one for example. </br>
