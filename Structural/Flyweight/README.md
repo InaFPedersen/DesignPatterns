@@ -50,11 +50,13 @@ The general rule is only use this pattern when all five are true.
 
 ## Pattern Structure 
 FlyweightFactory ---------------> Flyweight
-      |                                              |              |
-      |              ConcreteFlyweight1           ConcreteFlyweight2
-      |                                    |                              |           
-      |                                    |                              |
-Client -------------------------------------------------
+      |                          |         |
+      |         ConcreteFlyweight1        ConcreteFlyweight2
+      |                                    |           |           
+      |                                    |           |
+Client -------------------------------------------------</br></br>
+![image](https://user-images.githubusercontent.com/42718910/206163977-e31239a5-7b9d-49d4-82fb-f513768995c2.png)
+
 
 
 ## Use case
