@@ -21,7 +21,7 @@ Director ---------------->  Builder
            ConcreteBuilderA            ConcreteBuilderB   
                          |                                     |
                           --------> Product <------
-![image](https://user-images.githubusercontent.com/42718910/206131671-b4c2b7af-c44a-49e1-9b10-b6c603bf9ce8.png)
+
 
 
 ## Use case
