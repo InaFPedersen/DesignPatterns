@@ -23,7 +23,7 @@ We could have done this in Java, but not in C#. However, we can implement it wit
 
 Client   ----------->  Target
 			 |
-                       Adapter -----------------> Adaptee </br>![image](https://user-images.githubusercontent.com/42718910/206155847-e0c4b916-a9fc-45f8-a2f2-3c7ce1c77504.png)
+                       Adapter -----------------> Adaptee </br></br>![image](https://user-images.githubusercontent.com/42718910/206155847-e0c4b916-a9fc-45f8-a2f2-3c7ce1c77504.png)
 
 
 ## Use case
