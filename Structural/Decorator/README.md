@@ -25,13 +25,15 @@ Our classes would get littered with code that doesn't belong there, and that is 
 
 ## Pattern Structure 
 
+                            
                                           Component
-                                          |   |   |
-                         ConcreteComponent1   |   ConcreteComponent2
+                                           |  |  |
+                          ConcreteComponent1  |  ConcreteComponent2
 	                                      |
-                                          Decorator
-                                          |      |
-                          ConcreteDecorator1    ConcreteDecorator2
+                                         Decorator
+                                        |         |
+                        ConcreteDecorator1       ConcreteDecorator2</br></br>![image](https://user-images.githubusercontent.com/42718910/206157059-79c636dd-2479-4da1-ac72-04ddbf181fe5.png)
+
 
 ## Use case
 The first good use case for this pattern is when you have a need to add responsibilities to individual objects dynamically without affecting other objects. </br>
