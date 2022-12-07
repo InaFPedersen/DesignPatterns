@@ -31,7 +31,8 @@ ConcreteComponent1       |         ConcreteComponent2
 	                 |
                      Decorator
                   |               |
-ConcreteDecorator1                ConcreteDecorator2![image](https://user-images.githubusercontent.com/42718910/206163569-eaf13d0f-cea3-468f-a403-74879ea44853.png)
+ConcreteDecorator1                ConcreteDecorator2</br></br>
+![image](https://user-images.githubusercontent.com/42718910/206163569-eaf13d0f-cea3-468f-a403-74879ea44853.png)
 
 
 
