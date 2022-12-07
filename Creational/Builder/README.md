@@ -16,11 +16,14 @@ We will have a builder for a car, and on it methods to build the engine, build a
 
 ## Pattern Structure 
 
-Director ---------------->  Builder
+
+         Director ---------------->  Builder
 		                 |               |
-           ConcreteBuilderA            ConcreteBuilderB   
+                    ConcreteBuilderA            ConcreteBuilderB   
                          |                                     |
-                          --------> Product <------
+                               --------> Product <------
+![image](https://user-images.githubusercontent.com/42718910/206131837-7428b5e5-c4b1-4c2d-b9fc-6745e14832d5.png)
+
 
 
 
