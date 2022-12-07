@@ -6,7 +6,7 @@ The factory method pattern is a creational pattern from the well-known Gang of F
 It is also known as a virtual constructor. These days, we don't really talk about the factory method pattern a lot anymore. We simply talk about the factory pattern. </br>
 But if we want to be correct, the factory pattern can refer to either the factory method, or the abstract factory pattern. </br>
 
-The factory method, its intent is to define an interface for creating an object, but to let subclasses decide which class to instantiate. Factory method let's a class defer instantiation to subclasses. 
+The factory method, its intent is to define an interface for creating an object, but to let subclasses decide which class to instantiate. Factory method let's a class defer instantiation to subclasses. </br>
 </br>
 With the example we will clarify this:</br>
 Imagine that you are creating part of a shopping cart system. At a certain moment, a discount can be applied. </br>
