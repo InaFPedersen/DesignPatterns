@@ -24,8 +24,9 @@ This can become very cumbersome, very fast, and that is what the composite patte
 
 ## Pattern Structure 
 Client ------------>  Component <---------
-                               |                  |             |
-                             Leaf              Composite
+                     |        |          |
+                    Leaf        Composite </br>![image](https://user-images.githubusercontent.com/42718910/206156298-21986637-8ec2-4598-9654-de7840dfe8c6.png)
+
 
 ## Use case
 This pattern can be useful when you want to represent part-whole hierarchies of objects, in other words, when you want to represent a tree-like object structure. </br>
