@@ -24,6 +24,8 @@ We could have done this in Java, but not in C#. However, we can implement it wit
 Client   ----------->  Target
 			     |
           Adapter -----------------> Adaptee
+	  
+	  
 	  ![image](https://user-images.githubusercontent.com/42718910/206155633-dced07e9-050b-420a-9063-01095fbff6a9.png)
 
 ## Use case
