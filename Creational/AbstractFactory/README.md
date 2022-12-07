@@ -78,6 +78,7 @@ But they can also be implemented using the prototype pattern. </br>
 </br>
 Also a concrete factory, so an abstract factory implementation, is often implemented as a singleton.</br>
 </br>
+</br>
 * Factory method - Abstract factory can be implemented using factory methods.
 * Prototype - Abstract factory can be implemented using prototypes.
 * Singleton- A concrete factory is often implemented as a singleton
