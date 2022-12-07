@@ -2,7 +2,9 @@
 A project template with examples.
 
 ## Description
-A project template with examples of all 23 different Design Patterns, originated from the Gang of Four library of Design Pattern.
+A project template with examples of all 23 different Design Patterns, originated from the Gang of Four library of Design Pattern. 
+The design patterns are split into three categories, behavioral, creational, and structural. 
+Each of the pattern has its own use cases where it can help optimalize the code.
 
 ## Original
 The original definitions of the design patterns can be found in the book: "Design Patterns - Elements of Reusable Object-Oriented Software" written by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides in 1994.
