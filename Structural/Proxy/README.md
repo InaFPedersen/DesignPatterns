@@ -35,8 +35,10 @@ Proxy can take on the responsibility of executing code before or after calling t
 ## Pattern Structure 
 
 Client -----> Subject
-             |          |
-    RealSubject <---- Proxy
+                     |          |
+  RealSubject <---- Proxy</br></br>
+  ![image](https://user-images.githubusercontent.com/42718910/206164344-ad6aff86-e6e8-4ebc-bb6e-99b1038f4f05.png)
+
 
 
 ## Variations of the Proxy Pattern
