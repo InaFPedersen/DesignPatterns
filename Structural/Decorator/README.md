@@ -25,14 +25,14 @@ Our classes would get littered with code that doesn't belong there, and that is 
 
 ## Pattern Structure 
 
-                            
-                                          Component
-                                           |  |  |
-                          ConcreteComponent1  |  ConcreteComponent2
-	                                      |
-                                         Decorator
-                                        |         |
-                        ConcreteDecorator1       ConcreteDecorator2</br></br>![image](https://user-images.githubusercontent.com/42718910/206157059-79c636dd-2479-4da1-ac72-04ddbf181fe5.png)
+                     Component
+                 |       |         |
+ConcreteComponent1       |         ConcreteComponent2
+	                 |
+                     Decorator
+                  |               |
+ConcreteDecorator1                ConcreteDecorator2![image](https://user-images.githubusercontent.com/42718910/206163569-eaf13d0f-cea3-468f-a403-74879ea44853.png)
+
 
 
 ## Use case
