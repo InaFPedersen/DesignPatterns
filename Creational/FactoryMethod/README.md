@@ -72,7 +72,6 @@ So, factory method is based on inheritance, but it doesn't require the initializ
 Lastly, there is also a relation to a behavioral pattern. Factory methods are usually called within template methods.
 </br>
 </br>
-</br>
 * Abstract Factory - Often implemented with factory methods.
 * Prototype - No subclassing is needed (not based on inheritance), but an initialize action on Product is often required.
 * Template - Factory methods are often called from within template methods.
