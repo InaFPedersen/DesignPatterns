@@ -57,6 +57,25 @@ FlyweightFactory ---------------> Flyweight
 Client -------------------------------------------------</br></br>
 ![image](https://user-images.githubusercontent.com/42718910/206163977-e31239a5-7b9d-49d4-82fb-f513768995c2.png)
 
+## Working with Unshared Concrete Flyweight
+We are looking at the pattern structure we ended up with. </br>
+A confession, when we looked into the pattern structure, somethings where skipped to make the pattern easier to grasp.</br>
+</br>
+The thing skipped was the UnsharedConcreteFlyweight, which also implements flyweight.</br>
+This type of flyweight implementation does not need to be shared. </br>
+The flyweight interface enables sharing, but it does not enforce it. </br>
+The UnsharedConcreteFlyweight is such an implementation. </br>
+It enables acting on extrinsic state, while having unshareable intrinsic state. </br>
+</br>
+
+FlyweightFactory ---------------> Flyweight
+      |                                              |      |      |
+      |              ConcreteFlyweight1    |      ConcreteFlyweight2
+      |                      |                              |                       |
+      |                      |  UnsharedConcreteFlyweight  |           
+      |                      |                                                       |
+Client ---------------------------------------------------------</br></br>
+![image](https://user-images.githubusercontent.com/42718910/206164956-6711c118-bb8d-4a05-96eb-48e067ed55cc.png)
 
 
 ## Use case
