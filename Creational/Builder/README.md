@@ -15,12 +15,14 @@ This is a prime example of where the builder pattern shines.</br>
 We will have a builder for a car, and on it methods to build the engine, build a frame, and so on. And also a way to return a car, for example via a car property.
 
 ## Pattern Structure 
- 
-  Director ---------------->  Builder 
-		             |       | 
-            ConcreteBuilderA         ConcreteBuilderB   
-                          |                       |
+
+Director ---------------->  Builder
+		                 |               |
+           ConcreteBuilderA            ConcreteBuilderB   
+                         |                                     |
                           --------> Product <------
+![image](https://user-images.githubusercontent.com/42718910/206131671-b4c2b7af-c44a-49e1-9b10-b6c603bf9ce8.png)
+
 
 ## Use case
 You can use this pattern when you want to make the algorithm for creating a complex object independent of the parts that makes up the object and how they are assembled.</br> 
