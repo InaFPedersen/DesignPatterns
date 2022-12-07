@@ -19,8 +19,9 @@ It also needs to know how to create them.
 
 ## Pattern Structure 
 Client --------------> Prototype
-		               |       |
-      ConcretePrototype1       ConcretePrototype2
+		            |             |
+ConcretePrototype1            ConcretePrototype2![image](https://user-images.githubusercontent.com/42718910/206132149-90815eaa-ceb0-4d74-8eba-1054fe8e52cb.png)
+
 
 
 ## What about the ICloneable interface?
