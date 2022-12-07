@@ -16,7 +16,7 @@ We will have a builder for a car, and on it methods to build the engine, build a
 
 ## Pattern Structure 
 Director ---------------->  Builder
-		                  |         |
+		          |         |
            ConcreteBuilderA         ConcreteBuilderB   
                          |                       |
                          --------> Product <------
@@ -51,7 +51,6 @@ It also relate to the singleton pattern as the builder can be implemented as a s
 </br> 
 And lastly, it is related to a structural pattern, the composite pattern, as composites are often built by builders.</br> 
 </br> 
-</br>
 * Abstract factory - Both can be used to construct complex objects, but the builder  constructs the complex objects step by step.
 * Singleton - A builder can be implemented as a singleton.
 * Composite - Composite are often built by builders.
