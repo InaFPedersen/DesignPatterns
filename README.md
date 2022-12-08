@@ -10,23 +10,23 @@ Each of the pattern has its own use cases where it can help optimalize the code.
 The examples in the codes uses either Abstract base classes, or interfaces. You can choose which you want to use depending on your own project's needs. </br>
 
 ### Abstract Class
-An abstract class is a special type of class that cannot be instantiated, and is designed to be inherited by subclasses that either implement or overide its methods. </br>
-An abstract class can have constructors.</br>
-An abstract base class allows you to create functionality that subclasses (Children) can implement or override.</br>
-A class can extend only one abstract class. </br>
-You can take advantage of abstract classes to design components and specify some level of common functionality that must be implemented by derived classes.</br>
-An abstract class provide flexibility to have certain concrete methods and some other methods that the derived classes should implement.</br>
-If you have plans for future expansion, a future expansion is likely in the class hierarchy, a abstract class is a good choice.</br>
+An abstract class is a special type of class that cannot be instantiated, and is designed to be inherited by subclasses that either implement or overide its methods. 
+An abstract class can have constructors.
+An abstract base class allows you to create functionality that subclasses (Children) can implement or override.
+A class can extend only one abstract class. 
+You can take advantage of abstract classes to design components and specify some level of common functionality that must be implemented by derived classes.
+An abstract class provide flexibility to have certain concrete methods and some other methods that the derived classes should implement.
+If you have plans for future expansion, a future expansion is likely in the class hierarchy, a abstract class is a good choice.
 
 ### Interface
-An interface is basically a contract, it doesn't have any implementation. </br>
-Interfaces can contain only method declaration, it cannot contain method definitions.</br>
-Nor can you have any member data in a interface.</br>
-An interface may only have declarations of events, methods, and properties. </br>
-All methods declared in the interface, must be implemented by the classes that implement the interface.</br>
-An interface only allows you to define functionality, not implement it.</br>
-A class can take advantage of multiple interfaces.</br>
-It is easy to add a new interface to the hierarchy. </br>
+An interface is basically a contract, it doesn't have any implementation. 
+Interfaces can contain only method declaration, it cannot contain method definitions.
+Nor can you have any member data in a interface.
+An interface may only have declarations of events, methods, and properties. 
+All methods declared in the interface, must be implemented by the classes that implement the interface.
+An interface only allows you to define functionality, not implement it.
+A class can take advantage of multiple interfaces.
+It is easy to add a new interface to the hierarchy. 
 You should use an interface if you want a contract on some behavior or functionality.
 
 ## Original
