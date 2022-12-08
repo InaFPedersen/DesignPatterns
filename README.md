@@ -8,7 +8,8 @@ Each of the pattern has its own use cases where it can help optimalize the code.
 
 ## Tip
 The examples in the codes uses either Abstract base classes, or interfaces. You can choose which you want to use depending on your own project's needs. </br>
-</br>
+
+### Abstract Class
 An abstract class is a special type of class that cannot be instantiated, and is designed to be inherited by subclasses that either implement or overide its methods. </br>
 An abstract class can have constructors.</br>
 An abstract base class allows you to create functionality that subclasses (Children) can implement or override.</br>
@@ -16,7 +17,8 @@ A class can extend only one abstract class. </br>
 You can take advantage of abstract classes to design components and specify some level of common functionality that must be implemented by derived classes.</br>
 An abstract class provide flexibility to have certain concrete methods and some other methods that the derived classes should implement.</br>
 If you have plans for future expansion, a future expansion is likely in the class hierarchy, a abstract class is a good choice.</br>
-</br>
+
+### Interface
 An interface is basically a contract, it doesn't have any implementation. </br>
 Interfaces can contain only method declaration, it cannot contain method definitions.</br>
 Nor can you have any member data in a interface.</br>
