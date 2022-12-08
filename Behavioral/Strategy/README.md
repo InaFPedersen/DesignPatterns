@@ -46,10 +46,8 @@ There is no need to change the Order class to do so.
 
 
 ## Pattern Structure 
-Context -------->      Strategy
-                   |        |         |
-    ConcreteStrategyA       |         ConcreteStrategyB
-                      ConcreteStrategyC
+![image](https://user-images.githubusercontent.com/42718910/206368902-dc4e0629-f474-40aa-afaa-9f000ae5a8a7.png)
+
 
 
 ## Use case
