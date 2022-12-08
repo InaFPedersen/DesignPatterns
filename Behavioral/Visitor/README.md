@@ -46,13 +46,8 @@ This can be a list or a composite, depending on your use case. For our case we w
 
 
 ## Pattern Structure 
-ObjectStructure ---------> Element
-                          |      |
-           ConcreteElementA     ConcreteElementB
+![image](https://user-images.githubusercontent.com/42718910/206369119-a4c52d46-afae-4d0d-9b2f-c00e049177d9.png)
 
-                           Visitor
-                             |
-                       ConcreteVisitor
 
 
 ## Use case
