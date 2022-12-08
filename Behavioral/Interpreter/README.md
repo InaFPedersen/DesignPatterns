@@ -25,13 +25,8 @@ So we define a grammar through a set of expressions. You can call that a syntax 
 
 
 ## Pattern Structure 
-   -------------------> Context
-   |
-Client
-   |
-   -----------------> AbstractExpression
-                     |                 |
-     TerminalExpressionA            TerminalExpressionB
+![image](https://user-images.githubusercontent.com/42718910/206368280-719b0c46-6fec-438a-bae5-21328c180a02.png)
+
 
 
 ## Terminal VS NonTerminal Expression
