@@ -6,6 +6,9 @@ A project template with examples of all 23 different Design Patterns, originated
 The design patterns are split into three categories, ***Behavioral***, ***Creational***, and ***Structural***. </br>
 Each of the pattern has its own use cases where it can help optimalize the code.
 
+### Before you start
+You should have a basic understanding of the programming language C# (C-Sharp).
+
 ## Tip
 The examples in the codes uses either Abstract base classes, or interfaces. You can choose which you want to use depending on your own project's needs. </br>
 
