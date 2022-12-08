@@ -31,10 +31,8 @@ This TeamChatRoom thus holds the actual references to the team members.
 
 
 ## Pattern Structure 
-Mediator ------------------------------------->     Colleague
-      |                                           |         |
-      |                    I----------> ConcreteColleague1  |
-ConcreteMediator   ----------------------------------->  ConcreteColleague2
+![image](https://user-images.githubusercontent.com/42718910/206368502-003f3eae-39c7-45dc-8c54-3094dd9089a7.png)
+
 
 
 ## Use case
