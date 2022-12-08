@@ -6,6 +6,15 @@ A project template with examples of all 23 different Design Patterns, originated
 The design patterns are split into three categories, behavioral, creational, and structural. </br>
 Each of the pattern has its own use cases where it can help optimalize the code.
 
+## Tip
+The examples in the codes uses either Abstract base classes, or interfaces. You can choose which you want to use depending on your own project's needs. </br>
+</br>
+An abstract base class allows you to create functionality that subclasses (Children) can implement or override.</br>
+A class can extend only one abstract class. </br>
+</br>
+An interface only allows you to define functionality, not implement it.</br>
+A class can take advantage of multiple interfaces.
+
 ## Original
 The original definitions of the design patterns can be found in the book: </br>
 "Design Patterns - Elements of Reusable Object-Oriented Software" written by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides in 1994.
