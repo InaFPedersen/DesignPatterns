@@ -56,7 +56,7 @@ A good use case for this pattern is when an object's structure contains many cla
 Another good use case is when you are in a situation where the classes defined in your object structure don't have to change often, but you do often want to define new operations over the structure, a discount visitor, a JSON export visitor, and so on. </br>
 Using this pattern avoids having to change the classes, employee and customer, that define your object structure. </br>
 </br>
-Lastly, use it when you have got potentially many operations that need to be performed on objects in your object structure, but not necessarily on all of them.</br>
+Lastly, use it when you have got potentially many operations that need to be performed on objects in your object structure, but not necessarily on all of them.
 The visitor pattern avoids that you have to pollute all your objects with these operations, even when they don't apply to them. </br>
 Of course, a bit of reflection can help here as well, but that is typically a costly operation you want to avoid. </br>
 
