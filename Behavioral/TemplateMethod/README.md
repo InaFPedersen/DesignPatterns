@@ -33,9 +33,7 @@ That is what the template method pattern is, a straightforward, often used patte
 
 
 ## Pattern Structure 
-                          AbstractClass
-                        |               |
-            ConcreteClass1             ConcreteClass2
+![image](https://user-images.githubusercontent.com/42718910/206369015-b527a2b8-a5dd-4195-8e85-5e4d368d5440.png)
 
 
 ## Use case
