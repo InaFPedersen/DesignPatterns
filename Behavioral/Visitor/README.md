@@ -12,7 +12,6 @@ Imagine the following use case. We are building part of an order management syst
 You have got a large set of objects, but they are not all the same.</br>
 You have got an InternalCustomer class, a GovernmentCustomer class, and a PrivateCustomer class and so on, all deriving from Customer, but all with their own custom behavior and properties.</br>
 At a certain moment, a requirement comes in to add new behavior to all these objects. You need to calculate a discount depending on the amount of money the customer previously spent on orders. </br>
-</br>
 To add this behavior, you can implement it in all these classes, or depending on what needs to be known about the customer, you can implement it in a base class.</br>
 </br>
 But there is other types as well. Let's add an Employee class to the mix. </br>
