@@ -1,9 +1,9 @@
 # DesignPatterns
-A project template with examples and individual documentation for each pattern.
+A project template with examples and individual documentation for each design pattern.
 
 ## Description
 A project template with examples of all 23 different Design Patterns, originated from the Gang of Four library of Design Pattern. </br>
-The design patterns are split into three categories, behavioral, creational, and structural. </br>
+The design patterns are split into three categories, ***Behavioral***, ***Creational***, and ***Structural***. </br>
 Each of the pattern has its own use cases where it can help optimalize the code.
 
 ## Tip
@@ -37,6 +37,12 @@ The original definitions of the design patterns can be found in the book: </br>
 The tutorial that was followed is made by Kevin Dockx, and can be found at Pluralsight at: </br>
 https://app.pluralsight.com/library/courses/c-sharp-10-design-patterns/table-of-contents
 
+## Program
+It was used Visual Studio with Console application to create this project. 
+
 ## Author
 Written by Ina F. Pedersen
+
+## Project Status
+Complete
 
