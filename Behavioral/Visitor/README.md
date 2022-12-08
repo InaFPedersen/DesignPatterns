@@ -2,7 +2,7 @@
 
 
 ## Description
-The Visitor Pattern is a behavioral pattern from the Gang of Four library of design patterns. </br>
+The Visitor Pattern is a ***Behavioral Pattern*** from the Gang of Four library of design patterns. </br>
 </br>
 Its intent is to represent an operation to be performed on the elements of an object structure. </br>
 Visitor lets you define new operation without changing the classes of the elements on which it operates. </br>
