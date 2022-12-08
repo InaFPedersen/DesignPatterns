@@ -2,7 +2,7 @@
 
 
 ## Description
-The template method pattern is a behavioral pattern from the well-known Gang of Four library of design patterns.</br> 
+The template method pattern is a ***Behavioral Pattern*** from the well-known Gang of Four library of design patterns.</br> 
 </br>
 Its intent is to define the skeleton of an algorithm in an operation, deferring some steps to subclasses. </br>
 It lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure. </br>
