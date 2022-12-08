@@ -23,13 +23,8 @@ A command would be bound to some UI XAML code or, if that is not possible, could
 
 
 ## Pattern Structure 
-Invoker ----------------------------> Command
-                                        |
- --------------------------------> ConcreteCommand
- |                                            |
-Client                                        |
-    |                                         |
-    ------------------------------------> Receiver
+![image](https://user-images.githubusercontent.com/42718910/206368207-8d52bc33-9e27-4d17-aa21-d383cdeba557.png)
+
 
 ## Use case
 A very obvious use case for this pattern is when you want to parameterize objects with an action to perform.</br>
