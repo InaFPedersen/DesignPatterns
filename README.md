@@ -1,5 +1,5 @@
 # DesignPatterns
-A project template with examples.
+A project template with examples and individual documentation for each pattern.
 
 ## Description
 A project template with examples of all 23 different Design Patterns, originated from the Gang of Four library of Design Pattern. </br>
