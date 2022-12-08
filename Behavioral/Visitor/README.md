@@ -27,7 +27,8 @@ This becomes cumbersome. You always need to change these classes, which is risky
 Also, we need to start wondering whether it makes sense to have all that added behavior in all of these classes.</br>
 Maybe it doesn't belong there if we keep the single responsibility principle in mind. </br>
 </br>
-Enter the visitor pattern. This allows adding behavior to classes by adding the behavior to another class, the visitor, which will visit the original classes and execute that behavior. </br>
+Enter the visitor pattern. </br>
+This allows adding behavior to classes by adding the behavior to another class, the visitor, which will visit the original classes and execute that behavior. </br>
 To avoid overloading the screen with a huge diagram, let's just stick to a customer class and an employee class, unrelated to each other, and with their own properties and operations.</br>
 But there can of course be many more classes. They have a discount field, which we will calculate using our visitor. </br>
 </br>
