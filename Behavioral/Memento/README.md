@@ -76,7 +76,6 @@ We are now just using one command on which we change state for undo functionalit
 The first related pattern is the command pattern as it can use a memento to store and restore its state.</br>
 </br>
 Next to that mementos can also be used for iteration. In that case, a memento can be used to capture current iteration state and potentially roll it back.</br>
-</br>
 
 * Command - Can use a memento to store and restore its state
 * Iterator - Memento can be used to capture the current iteration state and potentially roll it back.
