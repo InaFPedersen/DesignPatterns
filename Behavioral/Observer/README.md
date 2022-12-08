@@ -38,11 +38,7 @@ And that method runs through all observers and calls ReceiveTicketChangeNotifica
 
 
 ## Pattern Structure 
-
-Subject ---------------------------> Observer
-    |                                 |     |
-    |        I--------- ConcreteObserverA   |
-ConcreteSubject <------------------- ConcreteObserverB
+![image](https://user-images.githubusercontent.com/42718910/206368672-cbd9fba8-a173-4887-8407-abbf6de3a61f.png)
 
 
 ## Use case
