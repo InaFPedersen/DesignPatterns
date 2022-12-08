@@ -43,11 +43,8 @@ That is a prime example of chain of responsibility pattern at work.
 
 ## Pattern Structure 
 
-                                              -------
-                                              |     |
- Client  ------------------------------->     Handler
-                                              |     |
-                               ConcreteHandler1    ConcreteHandler2
+![image](https://user-images.githubusercontent.com/42718910/206368059-b54302d7-c5d8-4f49-ae17-16367f5d16a2.png)
+
 
 
 ## Use case
