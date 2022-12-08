@@ -54,9 +54,8 @@ The more different states there are, the more obvious the advantages become.
 
 
 ## Pattern Structure 
-Context --------------------------->   State
-                                      |      |
-                         ConcreteStateA      ConcreteStateB
+![image](https://user-images.githubusercontent.com/42718910/206368823-7a5be10e-4485-43e8-a36b-7a09780cc089.png)
+
 
 ## Use case
 There is two good use cases for this pattern. </br>
