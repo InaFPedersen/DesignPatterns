@@ -51,8 +51,7 @@ This can be a list or a composite, depending on your use case. For our case we w
 
 
 ## Use case
-A good use case for this pattern is when an object's structure contains many classes with objects with differing interfaces and you want to perform operations on them that depend on their concrete classes.</br>
-In our example, these concrete classes were customers and employee. </br>
+A good use case for this pattern is when an object's structure contains many classes with objects with differing interfaces and you want to perform operations on them that depend on their concrete classes. In our example, these concrete classes were customers and employee. </br>
 </br>
 Another good use case is when you are in a situation where the classes defined in your object structure don't have to change often, but you do often want to define new operations over the structure, a discount visitor, a JSON export visitor, and so on. </br>
 Using this pattern avoids having to change the classes, employee and customer, that define your object structure. </br>
