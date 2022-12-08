@@ -43,10 +43,8 @@ It has access to the getters but not to the setters, so that is a narrow interfa
 
 
 ## Pattern Structure 
-Originator ----------> Memento
-                          ^
-                          |
-                      Caretaker
+![image](https://user-images.githubusercontent.com/42718910/206368586-3cb4d9fd-e7e4-4fd9-95cc-4bbde1ca6f82.png)
+
 
 
 ## Use case
