@@ -42,9 +42,8 @@ The PeopleIterator, it implements the IPeopleIterator interface, and it will con
 
 
 ## Pattern Structure 
-        Aggregate                    Iterator
-               |                       |
-ConcreteAggregate <------------- ConcreteIterator
+![image](https://user-images.githubusercontent.com/42718910/206368394-bcfaeba9-c00e-47c6-88c3-97177721cd46.png)
+
 
 
 ## Use case
